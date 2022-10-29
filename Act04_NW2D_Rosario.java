@@ -55,7 +55,7 @@ public static void main(String[] args) {
                     getNum[i]=getNum[i-1];
 		}	
                     getNum[insertLoc]=value;
-                System.out.println("\nAfter inserting a value.");
+                System.out.println("\nNew array elements.");
                     for(int i:getNum) 
                 {
                     System.out.println(i);
@@ -64,7 +64,7 @@ public static void main(String[] args) {
             case 2:	
                 System.out.println("Enter the index location to be deleted: ");
                     int EleDel = see.nextInt();	
-		System.out.println("\nAfter deleting a value.");
+		System.out.println("\nNew array elements.");
                     for(int i = EleDel; i < getNum.length - 1 ;i++) 
                 {
                     getNum[i] = getNum[i+1];
