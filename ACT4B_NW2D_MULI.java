@@ -64,7 +64,7 @@ public class ACT4B_NW2D_MULI {
     
                 case 2:
         
-               System.out.println("Delete: ");
+               System.out.println("Delete:");
                int del = s.nextInt();
         
                  for(int p = del; p<n.length-1; p++){
@@ -81,7 +81,7 @@ public class ACT4B_NW2D_MULI {
                 case 3:
         
       
-                    System.out.println("Traverse array: ");
+                    System.out.println("Traverse array:");
       
                     for(int o = 0; o<n.length; o++){
         
