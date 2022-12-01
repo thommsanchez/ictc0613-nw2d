@@ -80,6 +80,9 @@ public class Act05B_NW2D_Ordonio {
 			System.out.println("Welcome to the club, " + n.fName + " " + n.mName + " " + n.lName);
 			System.out.println("Your area code and telephone number is " + "(" + n.aCode +")" + " " + n.tNum );
 			System.out.println("You are " + n.Gender + " member and your age is " + n.Age);
+			System.out.println();
+			
+			n = n.next;
 		}
 	}
 }
